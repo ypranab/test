@@ -1,0 +1,10 @@
+npm i ts-node-dev
+tsc init
+npm init --y
+ts-node-dev --respawn --transpile-only index.ts
+npm install express --save
+npm install mongoose --save
+npm i --save-dev @types/express
+npm i --save-dev @types/cors
+
+"rootDir": "./src"
